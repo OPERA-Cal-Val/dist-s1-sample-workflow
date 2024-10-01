@@ -1,0 +1,48 @@
+name: dist-s1
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=>3.11 # required for shapely 2.0.0
+  - pip
+  # For packaging, and testing
+  - flake8
+  - backoff
+  - flake8-import-order
+  - flake8-blind-except
+  - flake8-builtins
+  - jupyter
+  - contextily
+  - boto3
+  - ipykernel
+  - rasterio
+  - geopandas
+  - scikit-image
+  - shapely=>2.0
+  - pandas
+  - tqdm
+  - requests
+  - rasterio
+  - asf_search
+  - earthaccess
+  - tile_mate>=0.0.11
+  - dem_stitcher
+  - leafmap
+  - dill
+  - flask<3.0
+  - astropy
+  - localtileserver
+  - xarray
+  - pytorch::pytorch
+  - torchvision
+  - pytorch-lightning
+  - torchmetrics
+  - statsmodels
+  - kornia
+  - openpyxl
+  - backoff
+  - transformers
+  - sktime
+  - papermill
+  - pip:
+     - timm

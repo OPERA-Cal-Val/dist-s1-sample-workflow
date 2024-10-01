@@ -1,0 +1,152 @@
+# Deprecated Folder
+deprecated/
+
+# OS Files
+**/.DS_Store
+**/.DS_Store?
+
+# vscode
+.vscode
+
+# Vim files
+*.sw[mnop]
+
+# .pyenv files
+.python-version
+
+# pytest files
+.pytest_cache/
+
+# Jupyter files
+*.ipynb_checkpoints
+
+# Python build files
+build/
+
+# Rope Files
+.ropeproject/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Setuptools distribution folder.
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+**/*.egg-info
+
+# Environments
+.env
+.envrc
+
+# Gdal and other image formats
+*.tif
+*.xml
+*.shp
+*.sbx
+*.sbn
+*.shx
+*.prj
+*.qpj
+*.dbf
+*.cpg
+*.msk
+*.kmz
+*.jpg
+*.wld
+*.geojson
+*.lyr
+*.qmd
+*.sld
+*.kml
+*.lock
+
+# Pngs
+marshak/**/*.png
+
+# Zip files
+*.zip
+
+# Ignore logs
+*.log
+
+# Lighting logs
+**/hparams.yaml
+
+# Data files
+*.json
+
+# ignore parquet
+*.parquet
+*.pqt
+
+
+# ignore xcel files
+*.xlsx
+
+# ignore pdf
+*.pdf
+
+## ignore gdb databases
+**/*.gdb
+
+# Ignore data
+**/opera_rtc_data/
+**/opera_rtc_data_*/
+**/opera_rtc_img_data/
+
+# Data out for ad-hoc data
+marshak/10_use_opera_optical_data_to_generate_val_data/out/
+
+# Data files to include
+!marshak/3_dist_sites/slcs_for_processing.csv.zip
+!marshak/4_rtc_organization/rtc_s1_table.json.zip
+!marshak/4_rtc_organization/burst_extent_subset.geojson.zip
+!marshak/6_torch_dataset/dist_s1_patch_lut.json.zip
+!marshak/3_dist_sites/dist_hls_val_sites.geojson
+!marshak/3_dist_sites/sites_for_processing_may_2024.geojson
+
+!marshak/3_dist_sites/validation_bursts_all_v2.parquet
+!marshak/3_dist_sites/validation_bursts_all_v1.parquet
+!marshak/4_rtc_organization/validation_bursts_v1_coverage_updated.parquet
+
+!marshak/11_dataloader_v3/patch_data/burst_patch_table_16.parquet
+!marshak/11_dataloader_v3/patch_data/burst_patch_table_32.parquet
+!marshak/11_dataloader_v3/patch_data/burst_patch_table_64.parquet
+!marshak/11_dataloader_v3/patch_data/burst_patch_table_128.parquet
+!marshak/11_dataloader_v3/patch_data/burst_patch_table_224.parquet
+
+!marshak/11_dataloader_v3/rtc_s1_tables/rtc_s1_table.parquet
+!marshak/11_dataloader_v3/rtc_s1_tables/validation_bursts_v1_coverage_updated.parquet
+!marshak/11_dataloader_v3/rtc_s1_tables/rtc_data_subset_startidx40_stopidx45.parquet
+!marshak/11_dataloader_v3/rtc_s1_tables/rtc_s1_data_val_bursts.parquet
+
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/chile_fire_2024.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/smokehouse_creek_fire_2024.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/papau_new_guinea_landslide_2024.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/park_fire_2024.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/paddock_fire_2024.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/monkey_creek_fire_2024.geojson
+
+marshak/10_ad_hoc_data_generation/out_notebooks
+
+!marshak/12_hls_tiles/mgrs.parquet
+!marshak/10_ad_hoc_data_generation/mgrs.parquet
+
+!marshak/10_ad_hoc_data_generation/events/bangladesh_coastal_flood_2024.yml
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/bangladesh_coastal_flood_2024.parquet
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/tuscany_flood_2023.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/benghazi_flood_2023.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/derna_flood_2023.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/demak_flood_2024.parquet
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/yajiang_fire_2024.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/brazzaville_flood_and_landslides_2023.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/brazzaville_flood_and_landslides_2024.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/cipongkor_landslides_2024.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/attica_fire_2024.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/bioko_fire_2024.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/chiapas_fire_2024.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/bolivia_fire_2023.geojson
+!marshak/10_ad_hoc_data_generation/external_validation_data_db/mai_mahiu_flood_and_landslides_2024.parquet
