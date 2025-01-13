@@ -63,8 +63,8 @@ __pycache__/
 *.kml
 *.lock
 
-# Pngs
-marshak/**/*.png
+# out directory
+out/
 
 # Zip files
 *.zip
